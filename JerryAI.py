@@ -115,25 +115,15 @@ def Whatsapp():
     speak("Tell me the name of the Person!")
     wname = takeCommand().lower()
 
-    if 'mum' in wname:
+    if 'soumya' in wname:
         speak("Tell me the Message!")
         msg = takeCommand()
-        speak("Tell me the time sir")
-        speak("Time in hour")
-        hour=int(takeCommand())
-        speak("Time in Minutes")
-        min = int(takeCommand())
-        pywhatkit.sendwhatmsg("+918972945560",msg,hour,min,20)
+        pywhatkit.sendwhatmsg_instantly("+919883738822",msg)
         speak("Ok! Sir, Sending sending message")
-    elif 'baba' in wname:
+    elif 'souro' in wname:
         speak("Tell me the Message!")
         msg = takeCommand()
-        speak("Tell me the time sir")
-        speak("Time in hour")
-        hour=int(takeCommand())
-        speak("Time in Minutes")
-        min = int(takeCommand())
-        pywhatkit.sendwhatmsg("+919800180721",msg,hour,min,20)
+        pywhatkit.sendwhatmsg_instantly("+919007603333",msg)
         speak("Ok! Sir, Sending sending message")
     else:
         speak("Ok Tell me the phone number")
@@ -141,12 +131,7 @@ def Whatsapp():
         ph = '+91' + num
         speak("Tell me the Message!")
         msg = takeCommand()
-        speak("Tell me the time sir")
-        speak("Time in hour")
-        hour=int(takeCommand())
-        speak("Time in Minutes")
-        min = int(takeCommand())
-        pywhatkit.sendwhatmsg(ph,msg,hour,min,20)
+        pywhatkit.sendwhatmsg_instantly(ph,msg)
         speak("Ok! Sir, Sending sending message")
 
 def TakeHindi():
@@ -200,8 +185,15 @@ def TaskEXE():
             elif 'open gmail' in query:
                 webbrowser.open("mail.google.com")
             
-            elif 'open school' in query:
-                webbrowser.open("sksps.edunext1.com")
+            elif 'open college' in query:
+                webbrowser.open("www.srmist.edu.in")
+            
+            elif 'open github' in query:
+                webbrowser.open("www.github.com/SoubhLance")
+            
+            elif 'open linkedin' in query:
+                webbrowser.open("www.linkedin.com/in/soubhik-sadhu-0427b4288")
+
             elif 'play music' in query:
                     speak("Sir play music from, offline,  or look, online")
                     choice= takeCommand().lower()
@@ -300,6 +292,9 @@ def TaskEXE():
 
             elif 'thank you' in query:
                 speak("It's my Pleasure, Sir")
+            
+            elif 'thank' in query:
+                speak("It's my Pleasure, Sir")
 
             elif 'run speed test' in query:
                 webbrowser.open("www.speedtest.net")
@@ -314,6 +309,9 @@ def TaskEXE():
             elif 'translator' in query:
                 Tran()
             
+            elif 'translater' in query:
+                Tran()
+
             elif 'take a break' in query:
                 speak("Ok Sir! You can call me again Whenever you need me!")
                 speak("Just say wake up jerry!")
