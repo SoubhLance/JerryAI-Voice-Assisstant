@@ -1,4 +1,12 @@
-# JerryAI-Voice-Assisstant
+# JerryAI-Voice-Assisstant  
+
+#Jerry Stand for 
+#J-Just
+#Effective 
+#E-Efficient and 
+#R-Responsive 
+#Y-Yielder
+#AI
 
 This Python script appears to be a personal assistant program named "Jerry." It utilizes various libraries such as pyttsx3, speech_recognition, webbrowser, wikipedia, pyautogui, pywhatkit, requests, bs4 (BeautifulSoup), and googletrans to perform tasks based on voice commands.
 
