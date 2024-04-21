@@ -7,6 +7,7 @@ E-Efficient and
 R-Responsive 
 Y-Yielder
 AI
+The video Demonstration is on Code Crusaders channel: https://youtu.be/_bLRIGSbpmA
 
 This Python script appears to be a personal assistant program named "Jerry." It utilizes various libraries such as pyttsx3, speech_recognition, webbrowser, wikipedia, pyautogui, pywhatkit, requests, bs4 (BeautifulSoup), and googletrans to perform tasks based on voice commands.
 
