@@ -65,7 +65,7 @@ This project is licensed under the MIT License.
 
 ### Contact
 
-For any queries, reach out to the creator at studysadhu2022@gmail.com.
+For any queries, reach out to the creator at studysadhu2022@gmail.com & soumyabratabose52@gmail.com.
 
 ```bash
 
